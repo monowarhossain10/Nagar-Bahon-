@@ -1,44 +1,64 @@
 ```
-# Flutter/Dart specific
-.dart_tool/
-.packages
-flutter_export_environment.sh
-**/ios/.generated/
-**/android/.generated/
-**/lib/generated_plugin_registrant.dart
-
-# Build outputs
-/build/
-**/build/
-
 # Dependencies
-/pubspec.lock
+node_modules/
+
+# Build directories
+dist/
+build/
+.next/
+out/
 
 # Environment variables
 .env
 .env.local
-*.env.*
+.env.*
 
-# Logs
-*.log
-**/logs/
-
-# IDE
+# IDE files
 .vscode/
 .idea/
 *.swp
 *.swo
 
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+*.log
+
 # OS generated files
 .DS_Store
 Thumbs.db
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
 
 # Temporary files
 *.tmp
 *.temp
 
-# Coverage
-/coverage/
-/htmlcov/
-.coverage
+# Local configuration
+*.local
+config/local.*
+
+# TypeScript/JavaScript build output
+*.js.map
+*.tsbuildinfo
+
+# Rust build output (if applicable)
+target/
+
+# Java build output (if applicable)
+*.class
+*.jar
+target/
+
+# Go build output (if applicable)
+*.exe
+*.dll
+*.so
 ```
