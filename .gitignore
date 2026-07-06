@@ -1,34 +1,44 @@
-# Gradle files
-.gradle/
-build/
+```
+# Flutter/Dart specific
+.dart_tool/
+.packages
+flutter_export_environment.sh
+**/ios/.generated/
+**/android/.generated/
+**/lib/generated_plugin_registrant.dart
 
-# Local configuration file (sdk path, etc)
-local.properties
+# Build outputs
+/build/
+**/build/
 
-# Log/OS Files
+# Dependencies
+/pubspec.lock
+
+# Environment variables
+.env
+.env.local
+*.env.*
+
+# Logs
 *.log
+**/logs/
 
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.aab
-*.apk
-output-metadata.json
-
-# IntelliJ
-*.iml
+# IDE
+.vscode/
 .idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+*.swp
+*.swo
 
-# Keystore files
-*.jks
-*.keystore
+# OS generated files
+.DS_Store
+Thumbs.db
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
+# Temporary files
+*.tmp
+*.temp
 
-# Android Profiling
-*.hprof
+# Coverage
+/coverage/
+/htmlcov/
+.coverage
+```
