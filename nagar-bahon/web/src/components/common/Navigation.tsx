@@ -41,7 +41,7 @@ const Navigation: React.FC = () => {
               onClick={() => router.push('/')}
               className="flex items-center space-x-2 hover:opacity-80 transition-opacity"
             >
-              <img src="/logo.png" alt="Nagar Bahon Logo" className="h-10 w-10" />
+              <img src="/logo.svg" alt="Nagar Bahon Logo" className="h-10 w-auto" />
               <span className="text-xl font-bold">Nagar Bahon</span>
             </button>
           </div>
