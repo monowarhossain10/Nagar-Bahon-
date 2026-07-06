@@ -1,4 +1,8 @@
 {
+  "Home": {
+    "title": "Welcome to Nagar Bahon",
+    "description": "Your trusted ride-sharing platform for comfortable and affordable journeys"
+  },
   "SeatMap": {
     "selectSeats": "Select Your Seats",
     "instruction": "Tap on available seats to book your ride",
